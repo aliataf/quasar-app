@@ -65,7 +65,7 @@ module.exports = function (/* ctx */) {
 
       // https://quasar.dev/quasar-cli/handling-webpack
       extendWebpack (cfg) {
-cfg.module.rules.push({
+        cfg.module.rules.push({
           enforce: 'pre',
           test: /\.(js|vue)$/,
           loader: 'eslint-loader',
@@ -187,7 +187,7 @@ cfg.module.rules.push({
       builder: {
         // https://www.electron.build/configuration/configuration
 
-        appId: 'quasar-js'
+        appId: 'quasar-app'
       },
 
       // More info: https://quasar.dev/quasar-cli/developing-electron-apps/node-integration

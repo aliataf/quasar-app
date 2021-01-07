@@ -1,4 +1,4 @@
-# Quasar App (quasar-js)
+# Quasar App (quasar-app)
 
 A Quasar Framework app
 
